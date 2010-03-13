@@ -1,0 +1,214 @@
+/* @override http://localhost/~kbro/netfullstatic/netfull-static.css */
+
+
+/* ================ */
+/* = The 1Kb Grid = */     /* 12 columns, 40 pixels each, with 20 pixel gutter */
+/* ================ */
+
+.grid_1 { width:40px; }
+.grid_2 { width:100px; }
+.grid_3 { width:160px; }
+.grid_4 { width:220px; }
+.grid_5 { width:280px; }
+.grid_6 { width:340px; }
+.grid_7 { width:400px; }
+.grid_8 { width:460px; }
+.grid_9 { width:520px; }
+.grid_10 { width:580px; }
+.grid_11 { width:640px; }
+.grid_12 { width:700px; }
+
+.column {
+	margin: 0 10px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.row {
+	width: 720px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -10px;
+	width: auto;
+	display: inline-block;
+}
+
+/* ================ */
+/*  Net Full Style  */
+/* ================ */
+
+body {
+	margin: 0px;
+	font-family: Delicious, Georgia, "Times New Roman", Times, serif;
+}
+
+a:link {
+	color: #415a3f;
+	margin: 0px;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #415a3f;
+	border-bottom: 1px solid #ccc;
+}
+
+a:active {
+	text-decoration: none;
+	color: #415a3f;
+	border-bottom: 1px solid #ccc;
+}
+
+a:hover {
+	color: black;
+	border-bottom:1px solid #749b6f;
+
+}
+
+p {
+	margin: 1em 0px;
+	padding: 0px;
+	line-height: 1.25em;
+}
+
+h1, h2, h3, h4, h4 {
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	margin: 30px 0px 20px 0px;
+}
+
+h2 {
+	margin: 10px 0px 20px 0px;
+}
+
+blockquote {
+	color: #415a3f;
+}
+
+#title {
+	margin: 10px 0px 0px 0px;
+	letter-spacing: -4px;
+	font: bold 3.5em Helvetica, Arial, Geneva, sans-serif;
+}
+
+#title a {
+	border: none;
+	color: #749b6f;
+}
+
+#title a:hover {
+	color: #415a3f;
+}
+
+#atsignofthefish {
+	background: url(atsignofthefishgreen.png) no-repeat 50% 50%;
+	height: 100px;
+}
+
+#tagline {
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	font: 1em Helvetica, Arial, Geneva, sans-serif;
+	padding: 0px 5px;
+}
+
+#statement {
+	margin: 30px 0px 20px;
+	font: 2em "calluna-1","calluna-2", Georgia, "Times New Roman", Times, serif;
+	
+}
+
+#article {
+	text-align: left;
+	line-height: 2.5em;
+}
+
+
+#nav {
+	text-align: center;
+	font: 1.25em "calluna-1","calluna-2", Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0px 0px;
+}
+
+#nav li {
+	border-left: 3px solid #ccc;
+	border-right: 3px solid #ccc;
+	padding: 0px 10px;
+}
+
+#nav li:hover {
+	border-left: 3px solid #749b6f;
+	border-right: 3px solid #749b6f;
+}
+
+#nav a {
+	border: none;
+	color: #749b6f;
+	margin: 0px 10px 0px 10px;
+	
+}
+
+#nav a:hover {
+	color: #415a3f;
+}
+
+#excerpt {
+	margin: 90px 0px 0px 0px;
+	padding: 10px;
+	color: #415a3f;
+	text-align: center;
+	font: 1.25em/2em "calluna-1","calluna-2", Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 5px;
+	text-transform: lowercase;
+	border-left: 3px solid #ccc;
+	border-right: 3px solid #ccc;
+	
+}
+
+#footer {
+	padding: 50px 20px;
+	color: #749b6f;
+	text-align: center;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
