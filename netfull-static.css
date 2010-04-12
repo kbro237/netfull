@@ -1,9 +1,7 @@
-/* @override 
-	http://www.netfulloffish.com/netfull-static.css
-	http://localhost/~kbro/netfullstatic/netfull-static.css
-*/
+/* @override http://localhost/~kbro/netfullstatic/netfull-static.css */
 
-/* ================ */ 
+
+/* ================ */
 /* = The 1Kb Grid = */     /* 12 columns, 40 pixels each, with 20 pixel gutter */
 /* ================ */
 
@@ -188,17 +186,8 @@ blockquote {
 }
 
 
-/*Graphic Logo*/
 
-#title, #tagline, #atsignofthefish {
-	display: none;
-}
 
-#graphic_logo {
-	display: block;
-	text-align: right;
-	margin: 10px 0 0 0;
-}
 
 
 
